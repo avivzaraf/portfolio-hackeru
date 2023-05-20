@@ -193,10 +193,8 @@ width: 5vh;
         gap: 15px;
     }
 
-    .contact:hover {
-        cursor: pointer;
-    }
-
+  
+ 
     .contact img {
         max-height: 20px;
         width: 15px;
@@ -252,9 +250,9 @@ width: 5vh;
         font-size: 3rem;
     }
 
-         .p-header {
-             max-width: 500px;
-         }
+.p-header {
+    max-width: 500px;
+}
 
 .child-li{
         margin-left: 300px;
@@ -272,6 +270,9 @@ width: 5vh;
         margin-left: 50px;
     }
 
+a:hover{
+color: #a1f3f9;
+}
 
     a {
         text-decoration: none;
