@@ -134,8 +134,8 @@ width: 5vh;
     }
 
     .child img {
-    width: 28.7vh;
-        border-radius: 3px;
+    width: 25.7vh;
+            border-radius: 3px;
     }
 
     .child p {
@@ -370,8 +370,8 @@ width: 5vh;
     .container-projects {
         display: grid;
     padding-bottom: 50px;
-            gap: 55px;
-        grid-template-columns: 16% 16% 16%;
+    gap: 85px;
+            grid-template-columns: 16% 16% 16%;
         justify-content: center;
     }
 
