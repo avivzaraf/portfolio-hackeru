@@ -1,0 +1,590 @@
+@media screen and (min-width:320px) and (max-width:900px) {
+
+    body {
+        background-color: whitesmoke;
+    }
+
+    /*header*/
+
+
+    ul {
+        display: flex;
+        gap: 10px;
+        padding: 0px;
+        list-style: none;
+    }
+
+                .pro-a {
+                    font-size: 1rem;
+                    font-family: cursive;
+                }
+        
+                .pro-img {
+                    width: 3vh;
+                    border-radius: 20px;
+                }
+
+                                .child-li {
+                                    margin-left: 80px;
+                                }
+
+        a {
+            text-decoration: none;
+            color: black;
+            align-items: center;
+        }
+
+/*תיק עבודות אישי*/
+    .box-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: url("./bg.jpeg");
+        background-size: cover;
+        background-color: #B3F3F7;
+        background-blend-mode: multiply;
+    }
+
+   
+
+    /*icons*/
+    .icons {
+        display: grid;
+        grid-template-columns: 16.7% 16.7% 16.7% 16.7% 16.7% 16.7%;
+        grid-template-rows: 40% 50%;
+
+    }
+
+    .icons img {
+        width: 8vh;
+    }
+
+
+    
+    .img-about {
+        width: 25vh;
+        float: right;
+    }
+
+
+    /*pdf*/
+    .pdf-box {
+        text-align: center;
+    }
+
+
+
+
+    .pdf-box {
+        display: flex;
+        flex-direction: column;
+                text-align: center;
+        align-items: center;
+        position: relative;
+        background-color: rgb(53 47 47);
+    }
+
+    .img-pdf {
+            position: absolute;
+width: 5vh;
+    padding-top: -20;
+    margin: 20px;
+    transform: rotate(334deg);
+    }
+
+    .h-pdf,
+    .p-pdf {
+        color: white;
+    }
+
+    .h-pdf {
+        padding-top: 40px;
+    }
+
+    .button-pdf {
+        border-radius: 20px;
+        background-color: aqua;
+        width: 140px;
+        height: 30px;
+        margin: 10px;
+    }
+
+
+    /*projects*/
+    .container-projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .h2-projects{
+        text-align: center;
+    }
+
+    .child {
+
+        border: solid 1px rgb(138 129 129 / 5%);
+        background-color: white;
+        border-radius: 7px;
+        max-width: 198px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .child img {
+    width: 28.7vh;
+        border-radius: 3px;
+    }
+
+    .child p {
+        display: inline;
+    }
+
+    .child button {
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+    button {
+        border: aqua;
+        background-color: aqua;
+    }
+
+    /*form*/
+
+    .form-style {
+        background-image: url("./bg.jpeg");
+        background-size: cover;
+        background-color: #B3F3F7;
+        background-blend-mode: multiply;
+        margin-top: 20px;
+    }
+
+
+
+    input,
+    #message {
+        border: none;
+        box-shadow: 0px 1px 0px 0px;
+        min-width: 250px;
+    }
+
+    #message {
+        height: 60px;
+    }
+
+  
+
+    .button-form {
+        display: block;
+    }
+
+    /*contact*/
+
+    .contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid 1px black;
+        min-height: 70px;
+        background-color: rgb(46, 45, 45);
+        gap: 15px;
+    }
+
+    .contact:hover {
+        cursor: pointer;
+    }
+
+    .contact img {
+        max-height: 20px;
+        width: 15px;
+    }
+
+    .img-child1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+    }
+
+    div span {
+        color: white;
+        font-size: 0.5rem;
+    }
+
+}
+
+
+/*min-901*/
+@media screen and (min-width:901px) {
+    body {
+        font-family: 'Heebo', sans-serif;
+        background-color: whitesmoke;
+    }
+
+    /*header*/
+
+    .header {
+        display: flex;
+        position: fixed;
+        border: solid 1px lightgray;
+        box-shadow: 0px 1px 1px -1px;
+        width: 100%;
+        margin-top: 30px;
+        padding-right: 100px;
+        background-color: whitesmoke;
+    }
+
+    .pro-a{
+    font-size: 1.5rem;
+        font-family: cursive;
+    }
+
+    .pro-img{
+        width: 3vh;
+            border-radius: 20px;
+    }
+    
+    .h1-header {
+        font-size: 3rem;
+    }
+
+         .p-header {
+             max-width: 500px;
+         }
+
+.child-li{
+        margin-left: 300px;
+}
+
+
+    nav {
+        display: block;
+    }
+
+
+    li {
+        list-style: none;
+        display: inline;
+        margin-left: 50px;
+    }
+
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    /*box-1*/
+    .box-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: url("./bg.jpeg");
+        background-size: cover;
+        background-color: #B3F3F7;
+        background-blend-mode: multiply;
+        margin-top: -40px;
+        min-height: 350px;
+    }
+
+
+    .pdf-box {
+        background-color: rgb(53 47 47);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 220px;
+    }
+
+
+    .img-pdf {
+        width: 8vh;
+        position: absolute;
+        left: 350px;
+    bottom: -80px;
+                    transform: rotate(329deg);
+    }
+
+
+    .h-pdf {
+        margin-left: 300px;
+        color: white;
+    }
+
+
+    .p-pdf {
+        max-width: 490px;
+        margin-top: 0px;
+        color: white;
+    }
+
+
+    .button-pdf,
+    .button-card {
+        border-radius: 20px;
+        background-color: aqua;
+        margin-left: 365px;
+        width: 140px;
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+
+
+    button:hover{
+        cursor: pointer;
+        background-color: rgb(11, 243, 243);
+    }
+
+
+    .child-p {
+        text-align: -webkit-center;
+    }
+
+
+    .img-child1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+
+    .icons {
+        display: flex;
+        justify-content: center;
+        box-shadow: -1px 0px 3px -2px;
+    }
+
+    .icons img {
+        max-width: 60px;
+        max-height: 70px;
+
+    }
+
+    .container-projects {
+        display: grid;
+    padding-bottom: 50px;
+            gap: 55px;
+        grid-template-columns: 16% 16% 16%;
+        justify-content: center;
+    }
+
+    .child {
+
+        background-color: white;
+        border-radius: 7px;
+        min-width: 200px;
+        text-align: center;
+    }
+
+    .h2-projects {
+        text-align: center;
+    }
+
+
+
+
+    .button-card {
+        margin-bottom: 30px;
+            margin-left: 0px;
+    }
+
+
+
+    .container-about {
+        display: flex;
+        justify-content: center;
+        align-items: inherit;
+        gap: 30px;
+    }
+
+    .child img {
+        max-width: 32.3vh;
+        border-radius: 4px;
+    }
+
+    .img-about {
+        width: 190px;
+        max-height: 170px;
+        margin-top: 27px;
+    }
+
+    .box-about p {
+        max-width: 500px;
+        overflow: hidden;
+    }
+
+           
+
+    .form-style {
+            display: flex;
+                flex-direction: column;
+        background-image: url("./bg.jpeg");
+        background-size: cover;
+        background-color: #B3F3F7;
+        background-blend-mode: multiply;
+            padding-right: 280px;
+            padding-bottom: 35px;
+
+    }
+
+
+.button-form{
+        display: block;
+                background-color: aqua;
+                border: none;
+                    padding: 5px;
+                        width: 80px;
+                        font-weight: 600;
+}
+
+
+/*contact us*/
+
+                                .contact {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    border: solid 1px black;
+                                    min-height: 70px;
+                                    background-color: rgb(46, 45, 45);
+                                    gap: 45px;
+                                }
+
+    	 span{
+    color:white;
+}
+
+
+
+.img-con{
+    width: 1.5vh;
+}
+}
+
+/*
+.pdf-box {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: rgb(53 47 47);
+    margin-top: 40px;
+    padding-right: 107px;
+}
+
+
+.h-pdf {
+    color: white;
+}
+
+.p-pdf {
+    max-width: 450px;
+    overflow: hidden;
+    color: white;
+}
+
+.img-pdf {
+    position: absolute;
+    left: 300px;
+    top: 50px;
+    transform: rotate(327deg);
+    width: 50px;
+    height: 50px;
+}
+
+button {
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+/*
+.container-projects {
+    display: grid;
+    margin-top: 50px;
+    gap: 55px;
+    grid-template-columns: 16% 16% 16%;
+    justify-content: center;
+}
+
+.h2-projects {
+    text-align: center;
+}
+
+.child {
+
+    border: solid 1px rgb(138, 129, 129);
+    background-color: white;
+    border-radius: 7px;
+    width: 200px;
+    text-align: center;
+}
+
+.child img {
+    width: 30vh;
+    border-radius: 3px;
+}
+
+.child p {
+    display: inline;
+}
+
+.button-card {
+    display: block;
+    margin-top: 20px;
+    margin-right: 60px;
+}
+
+.child h2 {
+    font-family: cursive;
+}
+
+.top-co {
+    text-align: center;
+}
+
+
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+    width: 100%;
+    min-height: 100px;
+    background-color: rgb(46, 45, 45);
+    gap: 50px;
+}
+
+.contact:hover {
+    cursor: pointer;
+}
+
+.contact img {
+    max-height: 20px;
+    width: 15px;
+}
+
+.img-child1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+div span {
+    color: white;
+    font-size: 0.5rem;
+}
+
+
+}
